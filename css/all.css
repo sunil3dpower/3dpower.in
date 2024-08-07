@@ -58,4 +58,25 @@ audio,video,canvas {max-width: 100%;}
 }
 
 
+@media (max-height: 800px) {
+    .horizonral-subtitle {
+        display: none !important; /* Hide the element */
+    }
+    
+}
+@media (max-height: 860px) {
+.horizonral-subtitle span {
+    border: none;
+}
+}
+
+.horizontal-subtitle .ellipsis {
+    max-width: 300px; 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+
  
